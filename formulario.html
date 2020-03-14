@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<section>
+	<header>
+	<!--menu-->
+	<nav class="menu">
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <img src="img/logo.png" width="110" alt="Logotipo">
+      <ul>
+        <li><a href="index.html">inicio</a></li>
+        <li><a href="folclor.html">Folclor</a></li>
+        <li><a href="comidastipicas.html">Comidas Tipicas</a></li>
+        <li><a href="sitiosturisticos.html">Sitios Turisticos</a></li>
+        <li><a href="Costumbres.html">Costumbres</a></li>
+        <li><a class="active" href="formulario.html">Formulario</a></li>
+      </ul>
+    </nav>
+	</header>
+	<hr>
+	<br>
+	<h1 align="center">Info Huila</h1>
+    <br>
+    <h5>Formulario</h5>
+	<p>
+		<label for="Nombre">Nombre</label>
+		<input type="text" name="Nombre" placeholder="Digite su nombre">
+	</p>
+	<p>
+		<label for="Descripcion">Descripcion</label>
+		<textarea name="Descripcion"></textarea>
+	</p>
+	<input type="radio" name="genero" value="Hombre"> Hombre <br/>
+	<input type="radio" name="genero" value="Mujer"> Mujer <br/>
+	<input type="radio" name="genero" value="Indefinido"> Indefinido <br/>
+
+	<select name="generados">
+		<option value="Hombre">Hombre</option>
+		<option value="Mujer">Mujer</option>
+		<option value="Indefinido">Indefinido</option>
+	</select>
+	<input type="submit" name="enviar datos del formulario">
+	</section>
+</body>
+</html>
